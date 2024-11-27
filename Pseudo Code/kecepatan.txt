@@ -1,0 +1,11 @@
+Program Menghitung Kecepatan
+
+Deklarasi:
+	v: integer
+	t: real
+	s: real
+
+Algoritma:
+	read(v,t)
+	s:=v*t
+	write(s)

@@ -1,0 +1,9 @@
+Program Menghitung Luas Segitiga
+
+Deklarasi:
+	a,t,L: real
+	
+Algoritma:
+	read(a,t)
+	L:=a*t
+	write(L)

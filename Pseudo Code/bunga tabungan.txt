@@ -1,0 +1,9 @@
+Deklarasi:
+	tabungan sebelum,tabungan sesudah,bunga: integer
+	x: tabungan sebelum
+	p: bunga
+	y: tabungan sesudah
+Algoritma
+	read(x,p)
+	y=x*(100+p)/100
+	write(y)

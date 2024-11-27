@@ -1,0 +1,16 @@
+Program input-output
+
+Deklarasi:
+	s: real
+	t: real
+	sa: real
+	sb: real
+	L: real
+	K: real
+
+Algoritma:
+	read(s,t,sa,sb)
+	If "Persegi Panjang", L:=s*t
+		else
+			If "Trapesium", L:=(sa+sb)*tdiv2
+				else, L:=(s*t)div2

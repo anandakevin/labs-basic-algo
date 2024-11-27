@@ -1,0 +1,14 @@
+Program Welcome_to_your_home,_buddy!
+
+Deklarasi:
+	nama: string
+	kota: string
+	
+Algoritma:
+	write("Who are you?")
+	write("Name=<nama>?")
+	read(nama)
+	write("Where do you live now?")
+	write("City=<kota>?")
+	read(kota)
+	write("It is nice to meet you, <nama>. You live at <kota>, right? Have a nice day!")

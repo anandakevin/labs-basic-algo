@@ -1,0 +1,10 @@
+Program Menghitung Suhu
+
+Deklarasi:
+	type Suhu: record <C:real, F: real>;
+	T: Suhu;
+	
+Algoritma:
+	read(T.C,T.F);
+	write(T.F=T.C*9/5+32);
+	write(T.C=(T.F-32)*5/9);

@@ -1,0 +1,11 @@
+Deklarasi:
+	harga asli, harga setelah diskon: integer
+	diskon: integer
+	P1: harga asli
+	P2: harga setelah diskon
+	D: diskon
+	
+Algoritma:
+	read(P1,D)
+	P2=P1*D/100
+	write(Rp<P2>)

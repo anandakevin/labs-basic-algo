@@ -1,0 +1,26 @@
+Solusi Latihan Bab 7 (Dalam Pseudo Code)
+
+1. Program Penentu Bilangan Kelipatanelipatan 4
+	angka, sisa: integer
+	read (angka)
+	sisa = angka mod 4
+	case (sisa)
+		0		: write(angka,' merupakan bilangan kelipatan 4')
+		otherwise write(angka,' bukan merupakan bilangan kelipatan 4')
+	end case
+	
+2. Program Diskon
+	biaya, diskon : integer
+	minimum: 100000
+	persentase diskon = x%
+	read (biaya)
+	diskon = biaya * persentase diskon
+	if biaya > biayaminimum 
+		then biaya = biaya - diskon
+	else biaya = biaya
+	end if
+	
+	write ('Total belanjaan anda adalah ',biaya);
+	
+3. 
+	
